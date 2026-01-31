@@ -33,7 +33,7 @@ const Header = () => {
             <div className="main-nav-wrapper">
                 <div className="container main-nav-content">
                     <Link to="/" className="logo">
-                        <span className="logo-text">JAMIA ASH'ARIYYA MADAVOOR</span>
+                        <span className="logo-text">JAMIA ASH'ARIYYA <br /> MADAVOOR</span>
                     </Link>
 
                     <button className="mobile-menu-toggle" onClick={toggleMenu}>
@@ -49,10 +49,8 @@ const Header = () => {
                             </li>
                             <li><NavLink to="/admission" onClick={() => setIsMenuOpen(false)}>Admission</NavLink></li>
                             <li><NavLink to="/academics" onClick={() => setIsMenuOpen(false)}>Academics</NavLink></li>
-                            <li><NavLink to="/organization" onClick={() => setIsMenuOpen(false)}>Organization</NavLink></li>
                             <li><NavLink to="/campus-life" onClick={() => setIsMenuOpen(false)}>Campus Life</NavLink></li>
-                            <li><a href="https://forms.gle/zSmALfbm1ufjjhYu9" target="_blank" rel="noopener noreferrer" className="btn-nav" style={{ backgroundColor: 'var(--color-secondary)' }}>Admission Started</a></li>
-                            <li><NavLink to="/contact" className="btn-nav" onClick={() => setIsMenuOpen(false)}>Contact Us</NavLink></li>
+                            <li><a href="https://forms.gle/zSmALfbm1ufjjhYu9" target="_blank" rel="noopener noreferrer" className="btn-nav" style={{ backgroundColor: 'var(--color-secondary)' }}>Apply Now</a></li>
                         </ul>
                     </nav>
                 </div>

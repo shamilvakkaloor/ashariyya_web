@@ -1,0 +1,52 @@
+INSTRUCTIONS:
+1. Please find the images/videos corresponding to the descriptions below.
+2. Rename your files EXACTLY as shown in the "REQUIRED FILENAME" column.
+3. Paste the renamed files into the "public/images" folder (or "public/videos" for the video file).
+
+================================================================================
+REQUIRED FILENAME              | DESCRIPTION / LOCATION
+================================================================================
+
+--- HOME PAGE ---
+hero-bg.jpg                    | Main large banner background on Home Page
+intro-campus.jpg               | Image next to "Glimpse to Ash'ary Campus" text
+campus-photo-1.jpg             | Scrolling marquee gallery image (1)
+campus-photo-2.jpg             | Scrolling marquee gallery image (2)
+campus-photo-3.jpg             | Scrolling marquee gallery image (3)
+campus-photo-4.jpg             | Scrolling marquee gallery image (4)
+campus-photo-5.jpg             | Scrolling marquee gallery image (5)
+campus-photo-6.jpg             | Scrolling marquee gallery image (6)
+event-convocation.jpg          | Upcoming Events section - Convocation image
+event-admission.jpg            | Upcoming Events section - Admission Open image
+event-fest.jpg                 | Upcoming Events section - Cultural Fest image
+video-thumbnail.jpg            | Background image for the Video Section
+news-placeholder.jpg           | Default image for News cards
+cta-bg.jpg                     | Background for the bottom "We're Here to Help" section
+
+--- PAGE HEADERS (Banners at the top of inner pages) ---
+about-header-bg.jpg            | Top banner for About Us page
+admission-header-bg.jpg        | Top banner for Admission page
+academics-header-bg.jpg        | Top banner for Academics page
+campus-header-bg.jpg           | Top banner for Campus Life page
+contact-header-bg.jpg          | Top banner for Contact Us page
+faculty-header-bg.jpg          | Top banner for Faculty page
+notice-header-bg.jpg           | Top banner for Notice Board page
+org-header-bg.jpg              | Top banner for Organization page
+
+--- ABOUT PAGE ---
+about-intro.jpg                | Image in the main introduction section of About page
+campus-facilities.jpg          | Image next to the Facilities list
+
+--- CAMPUS LIFE PAGE ---
+fest-photo-1.jpg               | Arts Fest Gallery image (1)
+fest-photo-2.jpg               | Arts Fest Gallery image (2)
+fest-photo-3.jpg               | Arts Fest Gallery image (3)
+fest-photo-4.jpg               | Arts Fest Gallery image (4)
+fest-photo-5.jpg               | Arts Fest Gallery image (5)
+fest-photo-6.jpg               | Arts Fest Gallery image (6)
+
+--- ORGANIZATION PAGE ---
+union-activity.jpg             | Image for Student Union / ASF section
+
+--- VIDEOS (Place in public/videos folder) ---
+campus-intro.mp4               | (Optional) Main campus video tour

@@ -1,0 +1,51 @@
+.program-card {
+    background-color: var(--color-white);
+    padding: var(--spacing-lg);
+    border-radius: 8px;
+    text-align: center;
+    transition: all 0.3s ease;
+    border: 1px solid transparent;
+    box-shadow: var(--shadow-sm);
+}
+
+.program-card:hover {
+    box-shadow: var(--shadow-lg);
+    background-color: var(--color-white);
+    transform: translateY(-5px);
+}
+
+.program-icon {
+    font-size: 3rem;
+    color: var(--color-secondary);
+    margin-bottom: var(--spacing-md);
+    height: 60px;
+}
+
+.program-title {
+    font-size: 1.25rem;
+    color: var(--color-primary);
+    margin-bottom: var(--spacing-sm);
+    font-weight: 700;
+}
+
+.program-desc {
+    color: var(--color-text-light);
+    font-size: 0.95rem;
+    margin-bottom: var(--spacing-lg);
+    line-height: 1.6;
+}
+
+.program-btn {
+    display: inline-block;
+    padding: 0.5rem 1.5rem;
+    border: 1px solid var(--color-primary);
+    color: var(--color-primary);
+    border-radius: 4px;
+    font-weight: 600;
+    transition: all 0.3s;
+}
+
+.program-btn:hover {
+    background-color: var(--color-primary);
+    color: var(--color-white);
+}

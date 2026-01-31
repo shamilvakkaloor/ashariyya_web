@@ -1,0 +1,181 @@
+.header {
+    width: 100%;
+    box-shadow: var(--shadow-sm);
+    position: relative;
+    z-index: 1000;
+    background-color: var(--color-white);
+}
+
+/* Top Bar */
+.top-bar {
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    padding: var(--spacing-xs) 0;
+    font-size: 0.9rem;
+}
+
+.top-bar-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-info a,
+.social-links a {
+    color: var(--color-white);
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-right: var(--spacing-md);
+    opacity: 0.9;
+}
+
+.contact-info a:hover,
+.social-links a:hover {
+    opacity: 1;
+}
+
+.social-links {
+    display: flex;
+}
+
+/* Main Nav */
+.main-nav-wrapper {
+    padding: var(--spacing-sm) 0;
+    background-color: var(--color-white);
+}
+
+.main-nav-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: var(--header-height);
+}
+
+.logo {
+    font-family: var(--font-heading);
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--color-primary);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.nav-menu ul {
+    display: flex;
+    gap: var(--spacing-lg);
+    align-items: center;
+}
+
+.nav-menu a {
+    font-weight: 500;
+    color: var(--color-text-main);
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    letter-spacing: 0.5px;
+    position: relative;
+}
+
+.nav-menu a:hover,
+.nav-menu a.active {
+    color: var(--color-secondary);
+}
+
+.nav-menu a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -4px;
+    left: 0;
+    background-color: var(--color-secondary);
+    transition: width 0.3s;
+}
+
+.nav-menu a:hover::after,
+.nav-menu a.active::after {
+    width: 100%;
+}
+
+.btn-nav {
+    padding: 0.5rem 1.5rem;
+    background-color: var(--color-primary);
+    color: var(--color-white) !important;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.btn-nav:hover {
+    background-color: var(--color-primary-dark);
+}
+
+.btn-nav::after {
+    display: none;
+}
+
+/* Mobile Toggle */
+.mobile-menu-toggle {
+    display: none;
+    font-size: 1.5rem;
+    color: var(--color-primary);
+}
+
+/* Floating WhatsApp */
+.floating-whatsapp {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    background-color: #25d366;
+    color: white;
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    box-shadow: var(--shadow-lg);
+    z-index: 1000;
+    transition: transform 0.3s;
+}
+
+.floating-whatsapp:hover {
+    transform: scale(1.1);
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+    .top-bar {
+        display: none;
+    }
+
+    .mobile-menu-toggle {
+        display: block;
+    }
+
+    .nav-menu {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: var(--color-white);
+        padding: var(--spacing-md);
+        box-shadow: var(--shadow-md);
+        transform: translateY(-20px);
+        opacity: 0;
+        pointer-events: none;
+        transition: all 0.3s ease;
+    }
+
+    .nav-menu.open {
+        transform: translateY(0);
+        opacity: 1;
+        pointer-events: all;
+    }
+
+    .nav-menu ul {
+        flex-direction: column;
+        gap: var(--spacing-md);
+        align-items: flex-start;
+    }
+}

@@ -30,7 +30,7 @@ const Organization = () => {
                     <div className="org-chart">
                         <div className="chart-node root">
                             <FaSitemap />
-                            <h3>Co-ordination of Ash'ari Colleges (C.A.C)</h3>
+                            <h3>Jamia Ash'ariyya Madavoor</h3>
                             <p>Governing Body</p>
                         </div>
                         <div className="chart-connector-vertical"></div>

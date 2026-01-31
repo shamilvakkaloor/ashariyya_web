@@ -8,7 +8,7 @@ const Footer = () => {
             <div className="container footer-content">
                 {/* Column 1: About */}
                 <div className="footer-col">
-                    <h3 className="footer-logo">CO-ORDINATION OF ASH'ARI COLLEGES</h3>
+                    <h3 className="footer-logo">JAMIA ASH'ARIYYA MADAVOOR</h3>
                     <p>
                         Jamia Ash'ariyya Islamic & Arts, Madavoor - Integrating Islamic values with modern education since 1996.
                         Providing free education, accommodation, and meals to deserving students.

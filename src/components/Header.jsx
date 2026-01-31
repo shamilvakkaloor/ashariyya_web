@@ -33,7 +33,7 @@ const Header = () => {
             <div className="main-nav-wrapper">
                 <div className="container main-nav-content">
                     <Link to="/" className="logo">
-                        <span className="logo-text">CO-ORDINATION OF ASH'ARI COLLEGES</span>
+                        <span className="logo-text">JAMIA ASH'ARIYYA MADAVOOR</span>
                     </Link>
 
                     <button className="mobile-menu-toggle" onClick={toggleMenu}>

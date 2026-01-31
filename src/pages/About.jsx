@@ -108,7 +108,7 @@ const About = () => {
                         <div className="gov-col">
                             <h3>Administrative Structure</h3>
                             <ul className="gov-list">
-                                <li><strong>Chairman:</strong> C.A.C. (Co-ordination of Ash'ari Colleges)</li>
+                                <li><strong>Chairman:</strong> Jamia Ash'ariyya Madavoor</li>
                                 <li><strong>Principal:</strong> [To be updated]</li>
                                 <li><strong>Academic Dean:</strong> [To be updated]</li>
                                 <li><strong>Administrative Officer:</strong> [To be updated]</li>

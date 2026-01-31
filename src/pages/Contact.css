@@ -1,0 +1,99 @@
+.contact-page .page-hero {
+    background-image: linear-gradient(rgba(26, 46, 74, 0.8), rgba(26, 46, 74, 0.8)), url('https://placehold.co/1920x500/1a2e4a/ffffff?text=Contact+Us+Header');
+}
+
+.contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--spacing-xl);
+}
+
+.contact-info-card,
+.contact-form-card {
+    background-color: var(--color-white);
+    padding: var(--spacing-xl);
+    border-radius: 8px;
+    box-shadow: var(--shadow-sm);
+}
+
+.contact-details {
+    margin-top: var(--spacing-lg);
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-lg);
+}
+
+.contact-item {
+    display: flex;
+    align-items: flex-start;
+    gap: var(--spacing-md);
+}
+
+.c-icon {
+    font-size: 1.5rem;
+    color: var(--color-secondary);
+    margin-top: 5px;
+}
+
+.contact-item h3 {
+    margin-bottom: 0.25rem;
+    font-size: 1.1rem;
+    color: var(--color-primary);
+}
+
+.contact-item p,
+.contact-item a {
+    color: var(--color-text-light);
+    line-height: 1.6;
+    text-decoration: none;
+}
+
+.contact-item a:hover {
+    color: var(--color-secondary);
+}
+
+/* Form */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-md);
+    margin-top: var(--spacing-md);
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.form-group label {
+    font-weight: 500;
+    color: var(--color-primary);
+}
+
+.form-group input,
+.form-group textarea {
+    padding: 0.75rem;
+    border: 1px solid var(--color-border);
+    border-radius: 4px;
+    font-family: inherit;
+    transition: border-color 0.3s;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: var(--color-primary);
+}
+
+/* Map */
+.map-section {
+    width: 100%;
+    margin-top: var(--spacing-xl);
+}
+
+@media (max-width: 768px) {
+    .contact-grid {
+        grid-template-columns: 1fr;
+    }
+}

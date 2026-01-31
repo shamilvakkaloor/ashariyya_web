@@ -53,7 +53,7 @@ const Home = () => {
                             <h1>ASH'ARI ADMISSION STARTED</h1>
                             <p>Join a community dedicated to spiritual and academic excellence.</p>
                             <div className="hero-buttons">
-                                <Link to="/admission" className="btn btn-primary">Register Now</Link>
+                                <a href="https://forms.gle/zSmALfbm1ufjjhYu9" target="_blank" rel="noopener noreferrer" className="btn btn-primary">Admission Started</a>
                                 <Link to="/results" className="btn btn-outline">View Results</Link>
                             </div>
                         </div>
@@ -255,7 +255,7 @@ const Home = () => {
                     <h2>We're Here to Help You Shape the Future</h2>
                     <p>We're here to help you achieve your goals, overcome challenges, and make every step smoother along the way.</p>
                     <div className="cta-buttons">
-                        <Link to="/admission" className="btn btn-primary">Enroll Now</Link>
+                        <a href="https://forms.gle/zSmALfbm1ufjjhYu9" target="_blank" rel="noopener noreferrer" className="btn btn-primary">Enroll Now</a>
                         <Link to="/academics" className="btn btn-outline">View Programs</Link>
                     </div>
                 </div>

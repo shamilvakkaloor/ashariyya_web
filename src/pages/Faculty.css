@@ -1,0 +1,60 @@
+.page-hero {
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    padding: 80px 0;
+    text-align: center;
+    background-image: linear-gradient(rgba(26, 46, 74, 0.8), rgba(26, 46, 74, 0.8)), url('https://placehold.co/1920x500/1a2e4a/ffffff?text=Faculty+Header');
+    background-size: cover;
+}
+
+.faculty-intro .lead-text {
+    font-size: 1.25rem;
+    color: var(--color-text-main);
+    max-width: 800px;
+    margin: 0 auto;
+    font-style: italic;
+}
+
+.category-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: var(--spacing-lg);
+}
+
+.category-card {
+    background-color: var(--color-white);
+    padding: var(--spacing-xl);
+    border-radius: 8px;
+    box-shadow: var(--shadow-md);
+    text-align: center;
+    transition: transform 0.3s;
+    border-top: 5px solid var(--color-secondary);
+}
+
+.category-card:hover {
+    transform: translateY(-5px);
+}
+
+.cat-icon {
+    font-size: 3rem;
+    color: var(--color-primary);
+    margin-bottom: var(--spacing-md);
+}
+
+.category-card h3 {
+    font-size: 1.25rem;
+    color: var(--color-primary);
+    margin-bottom: var(--spacing-sm);
+}
+
+.category-card p {
+    color: var(--color-text-light);
+}
+
+.join-team {
+    background-color: var(--color-background-off);
+}
+
+.mt-md {
+    margin-top: var(--spacing-md);
+}

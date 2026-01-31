@@ -1,0 +1,39 @@
+.notice-board-page .page-hero {
+    background-image: linear-gradient(rgba(26, 46, 74, 0.8), rgba(26, 46, 74, 0.8)), url('https://placehold.co/1920x500/1a2e4a/ffffff?text=Notices+Header');
+}
+
+.notice-filters {
+    display: flex;
+    justify-content: center;
+    gap: var(--spacing-md);
+    margin-bottom: var(--spacing-xl);
+    flex-wrap: wrap;
+}
+
+.filter-btn {
+    padding: 0.5rem 1.5rem;
+    border: 1px solid var(--color-border);
+    background-color: var(--color-white);
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 500;
+    color: var(--color-text-light);
+    transition: all 0.3s;
+}
+
+.filter-btn:hover {
+    background-color: var(--color-background-off);
+    color: var(--color-primary);
+}
+
+.filter-btn.active {
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    border-color: var(--color-primary);
+}
+
+.full-notice-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: var(--spacing-lg);
+}

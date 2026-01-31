@@ -51,6 +51,7 @@ const Header = () => {
                             <li><NavLink to="/academics" onClick={() => setIsMenuOpen(false)}>Academics</NavLink></li>
                             <li><NavLink to="/organization" onClick={() => setIsMenuOpen(false)}>Organization</NavLink></li>
                             <li><NavLink to="/campus-life" onClick={() => setIsMenuOpen(false)}>Campus Life</NavLink></li>
+                            <li><a href="https://forms.gle/zSmALfbm1ufjjhYu9" target="_blank" rel="noopener noreferrer" className="btn-nav" style={{ backgroundColor: 'var(--color-secondary)' }}>Admission Started</a></li>
                             <li><NavLink to="/contact" className="btn-nav" onClick={() => setIsMenuOpen(false)}>Contact Us</NavLink></li>
                         </ul>
                     </nav>

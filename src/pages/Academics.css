@@ -1,0 +1,117 @@
+.academics-page .page-hero {
+    background-image: linear-gradient(rgba(26, 46, 74, 0.8), rgba(26, 46, 74, 0.8)), url('https://placehold.co/1920x500/1a2e4a/ffffff?text=Academics+Header');
+}
+
+.overview-section .lead-text {
+    max-width: 900px;
+    margin: 0 auto;
+    font-size: 1.15rem;
+    color: var(--color-text-light);
+}
+
+.structure-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: var(--spacing-lg);
+}
+
+.structure-card {
+    background-color: var(--color-white);
+    padding: var(--spacing-lg);
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: var(--shadow-sm);
+    border-bottom: 3px solid var(--color-secondary);
+}
+
+.structure-card h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    color: var(--color-primary);
+    margin-bottom: var(--spacing-sm);
+}
+
+.structure-card p {
+    color: var(--color-text-light);
+}
+
+/* Program Details */
+.programs-list-section {
+    background-color: var(--color-background-off);
+}
+
+.program-detail-card {
+    background-color: var(--color-white);
+    padding: var(--spacing-lg);
+    border-radius: 8px;
+    margin-bottom: var(--spacing-lg);
+    box-shadow: var(--shadow-sm);
+}
+
+.program-detail-card h3 {
+    color: var(--color-secondary);
+    border-bottom: 1px solid var(--color-border);
+    padding-bottom: var(--spacing-sm);
+    margin-bottom: var(--spacing-md);
+}
+
+.prog-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--spacing-lg);
+}
+
+.prog-content h4 {
+    font-size: 1.1rem;
+    color: var(--color-primary);
+    margin-bottom: var(--spacing-sm);
+}
+
+.prog-content ul {
+    list-style: disc;
+    padding-left: 20px;
+    color: var(--color-text-light);
+}
+
+/* Portal */
+.portal-section {
+    background-color: var(--color-primary);
+    color: var(--color-white);
+}
+
+.portal-section h2 {
+    color: var(--color-white);
+    margin-bottom: var(--spacing-sm);
+}
+
+.download-links {
+    display: flex;
+    justify-content: center;
+    gap: var(--spacing-md);
+    flex-wrap: wrap;
+    margin-top: var(--spacing-md);
+}
+
+.download-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: var(--color-white);
+    border-radius: 4px;
+    font-size: 0.9rem;
+    transition: background-color 0.3s;
+}
+
+.download-item:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+@media (max-width: 768px) {
+    .prog-content {
+        grid-template-columns: 1fr;
+    }
+}

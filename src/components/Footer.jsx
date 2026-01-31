@@ -1,9 +1,8 @@
-import Link from 'react-router-dom'; // Mistake here, should be import { Link } from ...
+import { Link } from 'react-router-dom';
 import { FaFacebook, FaTwitter, FaLinkedin, FaInstagram, FaYoutube, FaPhone, FaEnvelope, FaMapMarkerAlt } from 'react-icons/fa';
 import './Footer.css';
 
 const Footer = () => {
-    // Correcting the import inside the function? No, need to fix the file.
     return (
         <footer className="footer">
             <div className="container footer-content">
@@ -20,12 +19,12 @@ const Footer = () => {
                 <div className="footer-col">
                     <h4>Quick Links</h4>
                     <ul>
-                        <li><a href="/">Home</a></li>
-                        <li><a href="/about">About Us</a></li>
-                        <li><a href="/admission">Admission</a></li>
-                        <li><a href="/programs">Programs</a></li>
-                        <li><a href="/notices">Notice Board</a></li>
-                        <li><a href="/contact">Contact Us</a></li>
+                        <li><Link to="/">Home</Link></li>
+                        <li><Link to="/about">About Us</Link></li>
+                        <li><Link to="/admission">Admission</Link></li>
+                        <li><Link to="/academics">Programs</Link></li>
+                        <li><Link to="/notice-board">Notice Board</Link></li>
+                        <li><Link to="/contact">Contact Us</Link></li>
                     </ul>
                 </div>
 
@@ -33,11 +32,11 @@ const Footer = () => {
                 <div className="footer-col">
                     <h4>Programs</h4>
                     <ul>
-                        <li><a href="/academics">Secondary Level</a></li>
-                        <li><a href="/academics">Higher Secondary - Commerce</a></li>
-                        <li><a href="/academics">Higher Secondary - Humanities</a></li>
-                        <li><a href="/academics">Degree Programs</a></li>
-                        <li><a href="/academics">Post-Graduate</a></li>
+                        <li><Link to="/academics">Secondary Level</Link></li>
+                        <li><Link to="/academics">Higher Secondary - Commerce</Link></li>
+                        <li><Link to="/academics">Higher Secondary - Humanities</Link></li>
+                        <li><Link to="/academics">Degree Programs</Link></li>
+                        <li><Link to="/academics">Post-Graduate</Link></li>
                     </ul>
                 </div>
 

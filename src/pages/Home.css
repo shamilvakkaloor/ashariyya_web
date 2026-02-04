@@ -124,13 +124,13 @@
 .hero-content h1 {
     font-size: 3.5rem;
     color: var(--color-white);
-    margin-bottom: var(--spacing-md);
+    margin-bottom: 0.5rem;
     animation: fadeInUp 1s ease-out;
 }
 
 .hero-content p {
     font-size: 1.25rem;
-    margin-bottom: var(--spacing-lg);
+    margin-bottom: 1.5rem;
     max-width: 700px;
     opacity: 0.9;
     animation: fadeInUp 1s ease-out 0.2s;
@@ -139,6 +139,7 @@
 
 .hero-buttons {
     display: flex;
+    justify-content: center;
     gap: var(--spacing-md);
     animation: fadeInUp 1s ease-out 0.4s;
     animation-fill-mode: both;

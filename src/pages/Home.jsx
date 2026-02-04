@@ -199,10 +199,30 @@ const Home = () => {
             {/* CAMPUS VIDEO SECTION */}
             <section className="video-section">
                 <div className="video-bg-placeholder">
-                    <div className="overlay"></div>
-                    <div className="container video-content">
+                    <video
+                        autoPlay
+                        muted
+                        loop
+                        playsInline
+                        className="background-video"
+                        style={{
+                            position: 'absolute',
+                            top: 0,
+                            left: 0,
+                            width: '100%',
+                            height: '100%',
+                            objectFit: 'cover',
+                            zIndex: 1
+                        }}
+                    >
+                        <source src="/videos/campus-intro.mp4" type="video/mp4" />
+                    </video>
+                    <div className="overlay" style={{ zIndex: 2 }}></div>
+                    <div className="container video-content" style={{ zIndex: 3 }}>
                         <h2>Watch What a Day in Classroom Looks Like</h2>
-                        <button className="play-btn"><FaArrowRight /></button>
+                        <button className="play-btn" onClick={() => document.querySelector('.background-video').muted = !document.querySelector('.background-video').muted}>
+                            <FaArrowRight />
+                        </button>
                         <Link to="/campus-life" className="btn btn-outline mt-lg">Virtual Campus Tour</Link>
                     </div>
                 </div>

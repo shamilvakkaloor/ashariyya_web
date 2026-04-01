@@ -20,15 +20,18 @@ const Footer = () => {
                     <h4>Quick Links</h4>
                     <ul>
                         <li><Link to="/">Home</Link></li>
+                        {/* 
                         <li><Link to="/about">About Us</Link></li>
                         <li><Link to="/admission">Admission</Link></li>
                         <li><Link to="/academics">Programs</Link></li>
                         <li><Link to="/notice-board">Notice Board</Link></li>
                         <li><Link to="/contact">Contact Us</Link></li>
+                        */}
                     </ul>
                 </div>
 
                 {/* Column 3: Programs */}
+                {/* 
                 <div className="footer-col">
                     <h4>Programs</h4>
                     <ul>
@@ -39,6 +42,7 @@ const Footer = () => {
                         <li><Link to="/academics">Post-Graduate</Link></li>
                     </ul>
                 </div>
+                */}
 
                 {/* Column 4: Contact */}
                 <div className="footer-col">

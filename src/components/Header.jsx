@@ -43,13 +43,14 @@ const Header = () => {
                     <nav className={`nav-menu ${isMenuOpen ? 'open' : ''}`}>
                         <ul>
                             <li><NavLink to="/" onClick={() => setIsMenuOpen(false)}>Home</NavLink></li>
+                            {/* 
                             <li className="dropdown">
-                                {/* Simplified dropdown for now, can be enhanced with CSS hover */}
                                 <NavLink to="/about" onClick={() => setIsMenuOpen(false)}>About Us</NavLink>
                             </li>
                             <li><NavLink to="/admission" onClick={() => setIsMenuOpen(false)}>Admission</NavLink></li>
                             <li><NavLink to="/academics" onClick={() => setIsMenuOpen(false)}>Academics</NavLink></li>
                             <li><NavLink to="/campus-life" onClick={() => setIsMenuOpen(false)}>Campus Life</NavLink></li>
+                            */}
                             <li><a href="https://forms.gle/zSmALfbm1ufjjhYu9" target="_blank" rel="noopener noreferrer" className="btn-nav" style={{ backgroundColor: 'var(--color-secondary)' }}>Apply Now</a></li>
                         </ul>
                     </nav>

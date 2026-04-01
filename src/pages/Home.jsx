@@ -54,7 +54,7 @@ const Home = () => {
                             <p>Join a community dedicated to spiritual and academic excellence.</p>
                             <div className="hero-buttons">
                                 <a href="https://forms.gle/zSmALfbm1ufjjhYu9" target="_blank" rel="noopener noreferrer" className="btn btn-primary">Admission Started</a>
-                                <Link to="/results" className="btn btn-outline">View Results</Link>
+                                <a href="https://script.google.com/a/~/macros/s/AKfycbzDqtGMo9ZxfUSlfiiIP3bOligJDrlOI3qA_-kJgpSMlZHc3O3vVs8vpbk71bkhRooB/exec" target="_blank" rel="noopener noreferrer" className="btn btn-outline">Muthawal Exam 2026 - Result</a>
                             </div>
                         </div>
                     </div>
@@ -84,6 +84,9 @@ const Home = () => {
                 </div>
             </section>
 
+            {/* TEMPORARILY HIDDEN SECTIONS */}
+            {false && (
+                <>
             {/* NOTICE BOARD SECTION */}
             <section className="section notice-section">
                 <div className="container">
@@ -268,6 +271,8 @@ const Home = () => {
                     </div>
                 </div>
             </section>
+                </>
+            )}
 
             {/* BOTTOM CTA */}
             <section className="cta-section">

@@ -103,7 +103,7 @@
     min-height: 50vh;
     padding: var(--spacing-xxl) 0 var(--spacing-xl);
     position: relative;
-    background: linear-gradient(-45deg, #4f46e5, #0ea5e9, #10b981, #f59e0b);
+    background: linear-gradient(-45deg, var(--color-primary), var(--color-secondary), var(--color-primary-dark), var(--color-accent));
     background-size: 400% 400%;
     animation: gradientBG 15s ease infinite;
     color: var(--color-white);

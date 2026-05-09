@@ -54,11 +54,11 @@ const Home = () => {
                             <p>Join a community dedicated to spiritual and academic excellence.</p>
                             
                             <div className="admission-boxes">
-                                <a href="https://forms.gle/zSmALfbm1ufjjhYu9" target="_blank" rel="noopener noreferrer" className="admission-box glass">Plus One Commerce</a>
-                                <a href="https://forms.gle/zSmALfbm1ufjjhYu9" target="_blank" rel="noopener noreferrer" className="admission-box glass">Plus One Humanities</a>
-                                <a href="https://forms.gle/zSmALfbm1ufjjhYu9" target="_blank" rel="noopener noreferrer" className="admission-box glass">School 8 English Medium</a>
-                                <a href="https://forms.gle/zSmALfbm1ufjjhYu9" target="_blank" rel="noopener noreferrer" className="admission-box glass">School 8 Malayalam Medium</a>
-                                <a href="https://forms.gle/zSmALfbm1ufjjhYu9" target="_blank" rel="noopener noreferrer" className="admission-box glass">Lateral Entry</a>
+                                <div className="admission-box glass">Plus One Commerce</div>
+                                <div className="admission-box glass">Plus One Humanities</div>
+                                <div className="admission-box glass">School 8 English Medium</div>
+                                <div className="admission-box glass">School 8 Malayalam Medium</div>
+                                <div className="admission-box glass">Lateral Entry</div>
                             </div>
 
                             <div className="hero-buttons">
@@ -88,7 +88,7 @@ const Home = () => {
                         <Link to="/about" className="btn btn-secondary">Know More About Us <FaArrowRight /></Link>
                     </div>
                     <div className="intro-image">
-                        <div className="image-placeholder">Campus Image</div>
+                        <div className="image-placeholder"></div>
                     </div>
                 </div>
             </section>

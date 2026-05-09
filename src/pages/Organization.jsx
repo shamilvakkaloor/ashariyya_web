@@ -73,7 +73,7 @@ const Organization = () => {
                             </ul>
                         </div>
                         <div className="union-image">
-                            <div className="placeholder-box">ASF Logo / Activity Photo</div>
+                            <div className="placeholder-box"></div>
                         </div>
                     </div>
                 </div>

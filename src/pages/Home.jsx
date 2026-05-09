@@ -52,9 +52,19 @@ const Home = () => {
                         <div className="container hero-content">
                             <h1>ASH'ARI ADMISSION STARTED</h1>
                             <p>Join a community dedicated to spiritual and academic excellence.</p>
+                            
+                            <div className="admission-boxes">
+                                <a href="https://forms.gle/zSmALfbm1ufjjhYu9" target="_blank" rel="noopener noreferrer" className="admission-box glass">Plus One Commerce</a>
+                                <a href="https://forms.gle/zSmALfbm1ufjjhYu9" target="_blank" rel="noopener noreferrer" className="admission-box glass">Plus One Humanities</a>
+                                <a href="https://forms.gle/zSmALfbm1ufjjhYu9" target="_blank" rel="noopener noreferrer" className="admission-box glass">School 8 English Medium</a>
+                                <a href="https://forms.gle/zSmALfbm1ufjjhYu9" target="_blank" rel="noopener noreferrer" className="admission-box glass">School 8 Malayalam Medium</a>
+                                <a href="https://forms.gle/zSmALfbm1ufjjhYu9" target="_blank" rel="noopener noreferrer" className="admission-box glass">Lateral Entry</a>
+                            </div>
+
                             <div className="hero-buttons">
-                                <a href="https://forms.gle/zSmALfbm1ufjjhYu9" target="_blank" rel="noopener noreferrer" className="btn btn-primary">Admission Started</a>
-                                <a href="https://script.google.com/a/~/macros/s/AKfycbzDqtGMo9ZxfUSlfiiIP3bOligJDrlOI3qA_-kJgpSMlZHc3O3vVs8vpbk71bkhRooB/exec" target="_blank" rel="noopener noreferrer" className="btn btn-outline">Muthawal Exam 2026 - Result</a>
+                                <a href="https://forms.gle/zSmALfbm1ufjjhYu9" target="_blank" rel="noopener noreferrer" className="btn btn-primary">Apply for School 8</a>
+                                <a href="https://forms.gle/zSmALfbm1ufjjhYu9" target="_blank" rel="noopener noreferrer" className="btn btn-primary">Apply for Plus One</a>
+                                <a href="https://forms.gle/zSmALfbm1ufjjhYu9" target="_blank" rel="noopener noreferrer" className="btn btn-primary">Apply for Lateral Entry</a>
                             </div>
                         </div>
                     </div>
@@ -73,8 +83,7 @@ const Home = () => {
                             "The Ash'ari Curriculum represents a significant advancement in integrated education. In a modern world where science, technology, and materialism dominate, we bridge the gap between spiritual values and material progress."
                         </p>
                         <p>
-                            The Ash'ari Course is an integrated religious and material education project inspired by the spiritual vision of Shaikh C.M. Waliullahi (PBUH) Madavoor.
-                            Guided by the Samasta Kerala Jam'iyyath Al-Ulama President, Sayyidul Ulama Sayyid Muhammad Jifri Muthukoya Thangal.
+                            The Ash'ari Course is an integrated religious and material education project inspired by the spiritual vision of Shaikh C.M. Waliullahi Madavoor.
                         </p>
                         <Link to="/about" className="btn btn-secondary">Know More About Us <FaArrowRight /></Link>
                     </div>

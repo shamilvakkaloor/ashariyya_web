@@ -100,14 +100,16 @@
 
 /* Hero Section */
 .hero-section {
-    height: 85vh;
-    min-height: 600px;
+    min-height: 50vh;
+    padding: var(--spacing-xxl) 0 var(--spacing-xl);
     position: relative;
-    background: linear-gradient(-45deg, var(--color-primary), var(--color-secondary), var(--color-accent), var(--color-primary-dark));
+    background: linear-gradient(-45deg, #4f46e5, #0ea5e9, #10b981, #f59e0b);
     background-size: 400% 400%;
     animation: gradientBG 15s ease infinite;
     color: var(--color-white);
     overflow: hidden;
+    display: flex;
+    align-items: center;
 }
 
 @keyframes gradientBG {
@@ -148,15 +150,44 @@
 
 .hero-content p {
     font-size: 1.25rem;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     max-width: 700px;
     opacity: 0.9;
     animation: fadeInUp 1s ease-out 0.2s;
     animation-fill-mode: both;
 }
 
+.admission-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 2.5rem;
+    animation: fadeInUp 1s ease-out 0.3s;
+    animation-fill-mode: both;
+}
+
+.admission-box {
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 0.95rem;
+    color: var(--color-white);
+    transition: transform 0.3s ease, background 0.3s ease;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    text-decoration: none;
+}
+
+.admission-box:hover {
+    transform: translateY(-3px);
+    background: rgba(255, 255, 255, 0.2);
+}
+
 .hero-buttons {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 1rem;
     animation: fadeInUp 1s ease-out 0.4s;

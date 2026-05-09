@@ -10,6 +10,7 @@ import Organization from './pages/Organization';
 import CampusLife from './pages/CampusLife';
 import NoticeBoard from './pages/NoticeBoard';
 import Contact from './pages/Contact';
+import Exam from './pages/Exam';
 import './App.css';
 
 // Placeholder Pages
@@ -37,6 +38,7 @@ function App() {
           <Route path="/campus-life" element={<CampusLife />} />
           <Route path="/notice-board" element={<NoticeBoard />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/exam" element={<Exam />} />
         </Routes>
       </main>
       <Footer />

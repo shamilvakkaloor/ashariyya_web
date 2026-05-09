@@ -22,7 +22,7 @@ const About = () => {
                             The Ash'ari Curriculum represents a significant advancement in integrated education. In a modern world where science, technology, and materialism dominate, we bridge the gap between spiritual values and material progress.
                         </p>
                         <p>
-                            The Ash'ari Course is an integrated religious and material education project inspired by the spiritual vision of Shaikh C.M. Waliullahi (PBUH) Madavoor. Under the blessed guidance of Samasta Kerala Jam'iyyath Al-Ulama President, Sayyidul Ulama Sayyid Muhammad Jifri Muthukoya Thangal, this institution has been nurturing students since 1996.
+                            The Ash'ari Course is an integrated religious and material education project inspired by the spiritual vision of Shaikh C.M. Waliullahi Madavoor. This institution has been nurturing students since 1996.
                         </p>
                         <p>
                             Located in the blessed premises of CM Makham Shareef, Madavoor, Calicut, our institution provides a unique educational experience where traditional Islamic scholarship meets modern academic excellence.
@@ -95,14 +95,10 @@ const About = () => {
                     <div className="governance-grid">
                         <div className="gov-col">
                             <h3>Spiritual Leadership</h3>
-                            <div className="gov-item">
-                                <strong>President</strong>
-                                <p>Sayyidul Ulama Sayyid Muhammad Jifri Muthukoya Thangal</p>
-                                <span>(Samasta Kerala Jam'iyyath Al-Ulama)</span>
-                            </div>
+                            <div className="gov-item" style={{display: 'none'}}></div>
                             <div className="gov-item">
                                 <strong>Founder's Vision</strong>
-                                <p>Shaikh C.M. Waliullahi (PBUH) Madavoor</p>
+                                <p>Shaikh C.M. Waliullahi Madavoor</p>
                             </div>
                         </div>
                         <div className="gov-col">

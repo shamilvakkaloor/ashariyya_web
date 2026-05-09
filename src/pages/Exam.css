@@ -1,0 +1,45 @@
+.exam-page {
+    min-height: calc(100vh - var(--header-height));
+    background-color: var(--color-background-off);
+}
+
+.page-header-section {
+    padding: var(--spacing-xxl) 0 var(--spacing-xl);
+    background: linear-gradient(135deg, rgba(49, 46, 129, 0.05), rgba(236, 72, 153, 0.05));
+    border-bottom: 1px solid var(--color-border);
+}
+
+.page-title {
+    font-size: 3rem;
+    margin-bottom: var(--spacing-sm);
+}
+
+.exam-content-section {
+    padding: var(--spacing-xl) 0;
+}
+
+.exam-cards-container {
+    display: flex;
+    justify-content: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.exam-card {
+    padding: var(--spacing-xl);
+    border-radius: 16px;
+    text-align: center;
+    width: 100%;
+}
+
+.exam-card h2 {
+    color: var(--color-primary);
+    margin-bottom: var(--spacing-md);
+    font-size: 2rem;
+}
+
+.exam-card p {
+    color: var(--color-text-light);
+    margin-bottom: var(--spacing-lg);
+    font-size: 1.1rem;
+}

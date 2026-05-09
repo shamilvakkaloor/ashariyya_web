@@ -1,15 +1,16 @@
 .event-card {
     background-color: var(--color-white);
-    border-radius: 8px;
+    border-radius: 16px;
     overflow: hidden;
     box-shadow: var(--shadow-sm);
-    transition: all 0.3s ease;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     border: 1px solid var(--color-border);
 }
 
 .event-card:hover {
-    transform: translateY(-5px);
+    transform: translateY(-8px);
     box-shadow: var(--shadow-lg);
+    border-color: var(--color-accent);
 }
 
 .event-image {
@@ -33,13 +34,13 @@
     position: absolute;
     top: 1rem;
     left: 1rem;
-    background-color: var(--color-secondary);
+    background: linear-gradient(135deg, var(--color-secondary), var(--color-accent));
     color: var(--color-white);
     padding: 0.5rem;
-    border-radius: 4px;
+    border-radius: 8px;
     text-align: center;
     min-width: 60px;
-    box-shadow: var(--shadow-sm);
+    box-shadow: 0 4px 10px rgba(236, 72, 153, 0.3);
 }
 
 .date-day {

@@ -1,30 +1,36 @@
 .feature-card {
     text-align: center;
-    padding: var(--spacing-md);
-    transition: transform 0.3s ease;
+    padding: var(--spacing-lg);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    border-radius: 16px;
+    background-color: var(--color-white);
+    border: 1px solid transparent;
 }
 
 .feature-card:hover {
-    transform: translateY(-5px);
+    transform: translateY(-8px);
+    box-shadow: var(--shadow-lg);
+    border-color: var(--color-border);
 }
 
 .feature-icon {
     font-size: 2.5rem;
-    color: var(--color-accent);
-    margin-bottom: var(--spacing-sm);
+    color: var(--color-white);
+    margin-bottom: var(--spacing-md);
     display: inline-flex;
     align-items: center;
     justify-content: center;
     width: 80px;
     height: 80px;
     border-radius: 50%;
-    background-color: var(--color-background-off);
-    transition: background-color 0.3s, color 0.3s;
+    background: linear-gradient(135deg, var(--color-primary), var(--color-accent));
+    box-shadow: 0 10px 20px rgba(6, 182, 212, 0.3);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .feature-card:hover .feature-icon {
-    background-color: var(--color-primary);
-    color: var(--color-white);
+    transform: scale(1.1) rotate(5deg);
+    box-shadow: 0 15px 25px rgba(6, 182, 212, 0.5);
 }
 
 .feature-title {

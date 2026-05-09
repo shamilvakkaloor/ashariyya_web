@@ -70,3 +70,26 @@ h6 {
 .section {
   padding: var(--spacing-xl) 0;
 }
+
+/* Glassmorphism Utilities */
+.glass {
+  background: var(--color-glass-bg);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid var(--color-glass-border);
+  box-shadow: var(--shadow-md);
+}
+
+.glass-dark {
+  background: rgba(30, 27, 75, 0.7);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.text-gradient {
+  background: linear-gradient(135deg, var(--color-secondary), var(--color-accent));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
